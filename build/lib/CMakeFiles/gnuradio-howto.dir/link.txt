@@ -1,0 +1,1 @@
+/usr/bin/c++  -fPIC -O3 -DNDEBUG  -shared -Wl,-soname,libgnuradio-howto-1.0.0git.so.0.0.0 -o libgnuradio-howto-1.0.0git.so.0.0.0 CMakeFiles/gnuradio-howto.dir/square_ff_impl.cc.o -Wl,-rpath,/home/santiago/grc/lib: -lboost_filesystem -lboost_system /home/santiago/grc/lib/libgnuradio-runtime.so 
