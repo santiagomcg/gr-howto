@@ -1,6 +1,7 @@
 /home/santiago/grc/lib/cmake/howto/howtoConfig.cmake
 /home/santiago/grc/include/howto/api.h
 /home/santiago/grc/include/howto/square_ff.h
+/home/santiago/grc/include/howto/suma_ff.h
 /home/santiago/grc/lib/libgnuradio-howto-1.0.0git.so.0.0.0
 /home/santiago/grc/lib/libgnuradio-howto-1.0.0git.so
 /home/santiago/grc/lib/libgnuradio-howto.so
@@ -15,6 +16,7 @@
 /home/santiago/grc/lib/python2.7/dist-packages/howto/__init__.pyc
 /home/santiago/grc/lib/python2.7/dist-packages/howto/__init__.pyo
 /home/santiago/grc/share/gnuradio/grc/blocks/howto_square_ff.xml
+/home/santiago/grc/share/gnuradio/grc/blocks/howto_suma_ff.xml
 /home/santiago/grc/share/doc/gr-howto/xml/combine.xslt
 /home/santiago/grc/share/doc/gr-howto/xml/namespacegr.xml
 /home/santiago/grc/share/doc/gr-howto/xml/group__block.xml

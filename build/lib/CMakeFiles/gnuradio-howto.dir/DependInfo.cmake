@@ -5,6 +5,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
   "/home/santiago/gr-howto/lib/square_ff_impl.cc" "/home/santiago/gr-howto/build/lib/CMakeFiles/gnuradio-howto.dir/square_ff_impl.cc.o"
+  "/home/santiago/gr-howto/lib/suma_ff_impl.cc" "/home/santiago/gr-howto/build/lib/CMakeFiles/gnuradio-howto.dir/suma_ff_impl.cc.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

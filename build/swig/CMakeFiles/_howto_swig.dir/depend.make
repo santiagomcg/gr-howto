@@ -3,6 +3,7 @@
 
 swig/CMakeFiles/_howto_swig.dir/howto_swigPYTHON_wrap.cxx.o: ../include/howto/api.h
 swig/CMakeFiles/_howto_swig.dir/howto_swigPYTHON_wrap.cxx.o: ../include/howto/square_ff.h
+swig/CMakeFiles/_howto_swig.dir/howto_swigPYTHON_wrap.cxx.o: ../include/howto/suma_ff.h
 swig/CMakeFiles/_howto_swig.dir/howto_swigPYTHON_wrap.cxx.o: swig/howto_swigPYTHON_wrap.cxx
 swig/CMakeFiles/_howto_swig.dir/howto_swigPYTHON_wrap.cxx.o: /home/santiago/grc/include/gnuradio/api.h
 swig/CMakeFiles/_howto_swig.dir/howto_swigPYTHON_wrap.cxx.o: /home/santiago/grc/include/gnuradio/attributes.h

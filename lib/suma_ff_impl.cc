@@ -1,8 +1,5 @@
 /* -*- c++ -*- */
-/* Esto es una linea de prueba
-=======
 /* 
->>>>>>> master
  * Copyright 2017 <+YOU OR YOUR COMPANY+>.
  * 
  * This is free software; you can redistribute it and/or modify
@@ -26,53 +23,60 @@
 #endif
 
 #include <gnuradio/io_signature.h>
-#include "square_ff_impl.h"
+#include "suma_ff_impl.h"
 
 namespace gr {
   namespace howto {
 
-    square_ff::sptr
-    square_ff::make()
+    suma_ff::sptr
+    suma_ff::make()
     {
       return gnuradio::get_initial_sptr
-        (new square_ff_impl());
+        (new suma_ff_impl());
     }
 
     /*
      * The private constructor
      */
-    square_ff_impl::square_ff_impl()     /* Aca van los argumentos que se les pasa como campos editables en el GNU Radio*/
-      : gr::block("square_ff",
-              gr::io_signature::make(1, 1, sizeof(float)),
+    suma_ff_impl::suma_ff_impl()
+      : gr::block("suma_ff",
+              gr::io_signature::make(2, 2, sizeof(float)),
               gr::io_signature::make(1, 1, sizeof(float)))
     {}
 
     /*
      * Our virtual destructor.
      */
-    square_ff_impl::~square_ff_impl()
+    suma_ff_impl::~suma_ff_impl()
     {
     }
 
     void
-    square_ff_impl::forecast (int noutput_items, gr_vector_int &ninput_items_required)
+    suma_ff_impl::forecast (int noutput_items, gr_vector_int &ninput_items_required)
     {
       ninput_items_required[0] = noutput_items;
+      ninput_items_required[1] = noutput_items;
+      /* <+forecast+> e.g. ninput_items_required[0] = noutput_items */
     }
 
+    /* Comienza la funcion general_work donde se hace el procesamiento*/
+    /* se define como int, pues devolvera noutput_items*/
+
     int
-    square_ff_impl::general_work (int noutput_items,
+    suma_ff_impl::general_work (int noutput_items,
                        gr_vector_int &ninput_items,
                        gr_vector_const_void_star &input_items,
                        gr_vector_void_star &output_items)
     {
-      const float *in = (const float *) input_items[0];
+      const float *in0 = (const float *) input_items[0];   // llamado "casteo de buffers"
+      const float *in1 = (const float *) input_items[1];
       float *out = (float *) output_items[0];
 
-      // Do <+signal processing+>
-       for(int i = 0; i < noutput_items; i++) {
-        out[i] = in[i] * in[i];
+      for(int i = 0; i < noutput_items; i++)
+      {
+        out[i] = in0[i] + in1[i];
       }
+      // Do <+signal processing+>
       // Tell runtime system how many input items we consumed on
       // each input stream.
       consume_each (noutput_items);

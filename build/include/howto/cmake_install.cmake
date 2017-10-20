@@ -36,6 +36,7 @@ if("${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMP
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/howto" TYPE FILE FILES
     "/home/santiago/gr-howto/include/howto/api.h"
     "/home/santiago/gr-howto/include/howto/square_ff.h"
+    "/home/santiago/gr-howto/include/howto/suma_ff.h"
     )
 endif()
 

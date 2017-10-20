@@ -35,3 +35,37 @@ lib/CMakeFiles/gnuradio-howto.dir/square_ff_impl.cc.o
  /home/santiago/grc/include/pmt/api.h
  /home/santiago/grc/include/pmt/pmt.h
  /home/santiago/grc/include/pmt/pmt_sugar.h
+lib/CMakeFiles/gnuradio-howto.dir/suma_ff_impl.cc.o
+ ../include/howto/api.h
+ ../include/howto/suma_ff.h
+ /home/santiago/gr-howto/lib/suma_ff_impl.cc
+ /home/santiago/gr-howto/lib/suma_ff_impl.h
+ /home/santiago/grc/include/gnuradio/api.h
+ /home/santiago/grc/include/gnuradio/attributes.h
+ /home/santiago/grc/include/gnuradio/basic_block.h
+ /home/santiago/grc/include/gnuradio/block.h
+ /home/santiago/grc/include/gnuradio/block_registry.h
+ /home/santiago/grc/include/gnuradio/config.h
+ /home/santiago/grc/include/gnuradio/gr_complex.h
+ /home/santiago/grc/include/gnuradio/io_signature.h
+ /home/santiago/grc/include/gnuradio/logger.h
+ /home/santiago/grc/include/gnuradio/messages/msg_accepter.h
+ /home/santiago/grc/include/gnuradio/messages/msg_producer.h
+ /home/santiago/grc/include/gnuradio/msg_accepter.h
+ /home/santiago/grc/include/gnuradio/rpccallbackregister_base.h
+ /home/santiago/grc/include/gnuradio/rpcmanager.h
+ /home/santiago/grc/include/gnuradio/rpcmanager_base.h
+ /home/santiago/grc/include/gnuradio/rpcregisterhelpers.h
+ /home/santiago/grc/include/gnuradio/rpcserver_aggregator.h
+ /home/santiago/grc/include/gnuradio/rpcserver_base.h
+ /home/santiago/grc/include/gnuradio/rpcserver_booter_aggregator.h
+ /home/santiago/grc/include/gnuradio/rpcserver_booter_base.h
+ /home/santiago/grc/include/gnuradio/rpcserver_selector.h
+ /home/santiago/grc/include/gnuradio/runtime_types.h
+ /home/santiago/grc/include/gnuradio/sptr_magic.h
+ /home/santiago/grc/include/gnuradio/tags.h
+ /home/santiago/grc/include/gnuradio/thread/thread.h
+ /home/santiago/grc/include/gnuradio/types.h
+ /home/santiago/grc/include/pmt/api.h
+ /home/santiago/grc/include/pmt/pmt.h
+ /home/santiago/grc/include/pmt/pmt_sugar.h

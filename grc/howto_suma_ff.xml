@@ -1,0 +1,16 @@
+<block>
+  <name>Suma ff</name>
+  <key>howto_suma_ff</key>
+  <category>[HOWTO]</category>
+  <import>import howto</import>
+  <make>howto.suma_ff()</make>
+  <sink>
+    <name>in</name>
+    <type>float</type>
+    <nports>2</nports>
+  </sink>
+  <source>
+    <name>out</name>
+    <type>float</type>
+  </source>
+</block>

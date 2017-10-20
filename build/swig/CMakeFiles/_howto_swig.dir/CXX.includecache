@@ -16,6 +16,12 @@ howto/api.h
 gnuradio/block.h
 -
 
+../include/howto/suma_ff.h
+howto/api.h
+-
+gnuradio/block.h
+-
+
 /home/santiago/gr-howto/build/swig/howto_swigPYTHON_wrap.cxx
 Python.h
 -
@@ -63,6 +69,8 @@ limits.h
 -
 howto/square_ff.h
 /home/santiago/gr-howto/build/swig/howto/square_ff.h
+howto/suma_ff.h
+/home/santiago/gr-howto/build/swig/howto/suma_ff.h
 float.h
 -
 math.h

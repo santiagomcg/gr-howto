@@ -249,6 +249,33 @@ square_ff_impl.cc.s:
 	cd /home/santiago/gr-howto/build && $(MAKE) -f lib/CMakeFiles/gnuradio-howto.dir/build.make lib/CMakeFiles/gnuradio-howto.dir/square_ff_impl.cc.s
 .PHONY : square_ff_impl.cc.s
 
+suma_ff_impl.o: suma_ff_impl.cc.o
+
+.PHONY : suma_ff_impl.o
+
+# target to build an object file
+suma_ff_impl.cc.o:
+	cd /home/santiago/gr-howto/build && $(MAKE) -f lib/CMakeFiles/gnuradio-howto.dir/build.make lib/CMakeFiles/gnuradio-howto.dir/suma_ff_impl.cc.o
+.PHONY : suma_ff_impl.cc.o
+
+suma_ff_impl.i: suma_ff_impl.cc.i
+
+.PHONY : suma_ff_impl.i
+
+# target to preprocess a source file
+suma_ff_impl.cc.i:
+	cd /home/santiago/gr-howto/build && $(MAKE) -f lib/CMakeFiles/gnuradio-howto.dir/build.make lib/CMakeFiles/gnuradio-howto.dir/suma_ff_impl.cc.i
+.PHONY : suma_ff_impl.cc.i
+
+suma_ff_impl.s: suma_ff_impl.cc.s
+
+.PHONY : suma_ff_impl.s
+
+# target to generate assembly for a file
+suma_ff_impl.cc.s:
+	cd /home/santiago/gr-howto/build && $(MAKE) -f lib/CMakeFiles/gnuradio-howto.dir/build.make lib/CMakeFiles/gnuradio-howto.dir/suma_ff_impl.cc.s
+.PHONY : suma_ff_impl.cc.s
+
 test_howto.o: test_howto.cc.o
 
 .PHONY : test_howto.o
@@ -297,6 +324,9 @@ help:
 	@echo "... square_ff_impl.o"
 	@echo "... square_ff_impl.i"
 	@echo "... square_ff_impl.s"
+	@echo "... suma_ff_impl.o"
+	@echo "... suma_ff_impl.i"
+	@echo "... suma_ff_impl.s"
 	@echo "... test_howto.o"
 	@echo "... test_howto.i"
 	@echo "... test_howto.s"

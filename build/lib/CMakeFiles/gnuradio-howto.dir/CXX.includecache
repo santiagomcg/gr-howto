@@ -16,6 +16,12 @@ howto/api.h
 gnuradio/block.h
 -
 
+../include/howto/suma_ff.h
+howto/api.h
+-
+gnuradio/block.h
+-
+
 /home/santiago/gr-howto/lib/square_ff_impl.cc
 config.h
 /home/santiago/gr-howto/lib/config.h
@@ -26,6 +32,18 @@ square_ff_impl.h
 
 /home/santiago/gr-howto/lib/square_ff_impl.h
 howto/square_ff.h
+-
+
+/home/santiago/gr-howto/lib/suma_ff_impl.cc
+config.h
+/home/santiago/gr-howto/lib/config.h
+gnuradio/io_signature.h
+-
+suma_ff_impl.h
+/home/santiago/gr-howto/lib/suma_ff_impl.h
+
+/home/santiago/gr-howto/lib/suma_ff_impl.h
+howto/suma_ff.h
 -
 
 /home/santiago/grc/include/gnuradio/api.h
